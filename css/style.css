@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../image/login-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+/* --sign up ------- */
+.signup-page , .login-page , .welcome , nav  {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#signUpbtn , #loginbtn , #logoutbtn{
+    background-color: #b83135;
+}
+.signup-page p {
+    font-size: 20px;
+}
+.signup-page input:focus {
+    border: none;
+}
+/* ------ sucess ---- */
+.sucess , .fail{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+}
+.sucess h1 , .fa-circle-check , .sucess span{
+    color: green !important;
+    font-size: 50px;
+    font-family:'Titillium Web', sans-serif;;
+}
+#sucessbtn {
+    background-color: green;
+}
+.sucess span{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/* --fail--- */
+.fa-circle-xmark{
+    color: red !important;
+    font-size: 50px;
+}
+.container-fail , .container-sucess{
+    position: absolute;
+    top: 0%;
+    left: 38%;
+}
+#closebtn{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}

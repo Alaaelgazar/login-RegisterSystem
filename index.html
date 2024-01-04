@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+</head>
+
+<body>
+        <section class="login_system vh-100  ">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="login-page my-5 w-75 p-5 ">
+                <h1 class="text-center text-white">Smart Login System</h1>
+                <div class="email my-3">
+                    <input type="email" class="form-control" required placeholder="Enter Your Email" id="userEmail">
+                </div>
+                <div class="password my-3">
+                    <input type="password" class="form-control" required placeholder="Enter Your password"id="userpassword">
+                </div>
+                <button class="btn text-white text-center px-4 py-2" onclick="login()" id="loginbtn">Login</button>
+                <P class="d-none  text-white" id="incorrect">your password or email is incorrect</P>
+                
+            <p class="text-danger d-none" id="fillMsg">fill the inputs first</p>
+                <p class="text-center text-white fw-bold Anaccount">
+                    Don't have an account?
+                    <a class="text-white" href="signup.html">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

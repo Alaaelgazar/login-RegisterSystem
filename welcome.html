@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+</head>
+
+<body onload="welcomePage()">
+    <section class="login_system vh-100">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand fw-bold text-white fs-4 " href="#">Smart Login</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button class="btn text-center px-4 py-2 " id="logoutbtn"  onclick="logout()"><a class="text-decoration-none text-white " href="index.html">Log Out</a></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container d-flex align-items-center text-center h-100">
+            <div class="welcome m-auto w-75 p-5">
+                <h1 class="text-white">Welcome <span id="username" class="text-white"></span></h1>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
